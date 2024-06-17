@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hortelã Pimenta Herbanário</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        /* Estilos globais */
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #eafdf3;
+        }
+        /* cabeçalho */
+        
+        header {
+            color: white;
+            width: 100%;
+            position: relative;
+            margin-bottom: 0;
+        }
+        
+        .fundo-header img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        /*  menu de navegação */
+        
+        nav {
+            background-color: rgb(5, 143, 78);
+            text-align: center;
+            padding: 12px 0;
+            position: relative;
+        }
+        
+        .navbar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            flex: 1 1 auto;
+            text-align: center;
+        }
+        
+        img {
+            display: flex;
+            border-style: double;
+            position: relative;
+            margin: auto;
+            border-radius: 5pt;
+            width: 30%;
+            height: 30%;
+        }
+        
+        img.Alegria {
+            filter: drop-shadow(10px 10px 10px rgb(19, 15, 240));
+        }
+        
+        img.Anticelulite {
+            filter: drop-shadow(10px 10px 10px rgb(236, 133, 15));
+        }
+        
+        img.Antiox {
+            filter: drop-shadow(10px 10px 10px rgb(7, 207, 124));
+        }
+        
+        img.Detox {
+            filter: drop-shadow(10px 10px 10px rgb(215, 103, 238));
+        }
+        
+        img.Digestiva {
+            filter: drop-shadow(10px 10px 10px rgb(48, 103, 240));
+        }
+        
+        img.Feminae {
+            filter: drop-shadow(10px 10px 10px rgb(7, 207, 124));
+        }
+        
+        img.Good_Vibes {
+            filter: drop-shadow(10px 10px 10px rgb(215, 103, 238));
+        }
+        
+        img.Imuno {
+            filter: drop-shadow(10px 10px 10px rgb(236, 133, 15));
+        }
+        
+        img.Renite {
+            filter: drop-shadow(10px 10px 10px rgb(7, 207, 124));
+        }
+        /* seção principal */
+        
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+        }
+        /* seção principal */
+        
+        .main-section {
+            background-size: cover;
+            padding: 50px;
+            color: rgb(12, 238, 80);
+            text-align: center;
+        }
+        
+        .fundo {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        
+        .fundo img {
+            flex: 1 1 calc(50% - 20px);
+            /* Adjusted to account for the gap */
+            max-width: calc(50% - 20px);
+            /* Adjusted to account for the gap */
+            height: auto;
+            box-sizing: border-box;
+            margin: 10px 0;
+        }
+        /* rodapé */
+        
+        footer {
+            background-color: rgb(5, 143, 78);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .fundo img {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="fundo-header">
+            <img src="4.png" alt="Hortelã Pimenta Herbanário">
+        </div>
+    </header>
+    <nav>
+        <div class="navbar">
+            <a href="../inicio.html">Inicio</a>
+            <a href="../Sobre/sobre.html">Sobre</a>
+            <a href="../Chas/chas.html">Chas</a>
+            <a href="../Mistos/mistos.html">Mistos</a>
+            <a href="tinturas.html">Tinturas</a>
+            <a href="" onclick="javascript:alert('Para entrar em contato envie um e-mail para jonatas.alves.31677@aluno.unc.br')">Contato</a>
+            <a href="https://forms.gle/EW4N5AYgMxP9bLDw6">Formulário</a>
+
+        </div>
+    </nav>
+    <div class="main-section" id="Chá">
+        <div class="fundo">
+            <img src="Alegria.png" class="Alegria img" alt="Alegria!" width="200">
+            <img src="Anticelulite.png" class="Anticelulite img" alt="Anticelulite!" width="200">
+            <img src="Antiox.png" class="Antiox img" alt="Antiox!" width="200">
+            <img src="Detox.png" class="Detox img" alt="Detox!" width="200">
+            <img src="Digestiva.png" class="Digestiva img" alt="Digestiva!" width="200">
+            <img src="Feminae.png" class="Feminae img" alt="Feminae!" width="200">
+            <img src="Good_Vibes.png" class="Good_Vibes img" alt="Good_Vibes!" width="200">
+            <img src="Imuno.png" class="Imuno img" alt="Imuno!" width="200">
+            <img src="Renite.png" class="Renite img" alt="Renite!" width="200">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Hortelã Pimenta Herbanário</p>
+    </footer>
+</body>
+
+</html>

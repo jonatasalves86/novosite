@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hortelã Pimenta Herbanário</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        /* Estilos globais */
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #eafdf3;
+        }
+        /* cabeçalho */
+        
+        header {
+            color: white;
+            width: 100%;
+            position: relative;
+            margin-bottom: 0;
+        }
+        
+        .fundo-header img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        /*  menu de navegação */
+        
+        nav {
+            background-color: rgb(5, 143, 78);
+            text-align: center;
+            padding: 12px 0;
+            position: relative;
+        }
+        
+        .navbar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            flex: 1 1 auto;
+            text-align: center;
+        }
+        
+        img.bem_estar {
+            display: flex;
+            border-style: solid;
+            position: relative;
+            margin: auto;
+            border-radius: 30pt;
+            filter: drop-shadow(10px 10px 10px rgb(215, 103, 238));
+        }
+        
+        img.energia {
+            display: flex;
+            border-style: solid;
+            position: relative;
+            margin: auto;
+            border-radius: 30pt;
+            filter: drop-shadow(10px 10px 10px rgb(236, 133, 15));
+        }
+        
+        img.frescor {
+            display: flex;
+            border-style: solid;
+            position: relative;
+            margin: auto;
+            border-radius: 30pt;
+            filter: drop-shadow(10px 10px 10px rgb(7, 207, 124));
+        }
+        
+        img.zen {
+            display: flex;
+            border-style: solid;
+            position: relative;
+            margin: auto;
+            border-radius: 30pt;
+            filter: drop-shadow(10px 10px 10px rgb(7, 196, 230));
+        }
+        /* seção principal */
+        
+        .main-section {
+            background-size: cover;
+            padding: 50px;
+            color: rgb(12, 238, 80);
+            text-align: center;
+            display: flex;
+        }
+        
+        .fundo {
+            display: flex;
+        }
+        
+        .main-section img {
+            width: 20%;
+            height: auto;
+        }
+        /* rodapé */
+        
+        footer {
+            background-color: rgb(5, 143, 78);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        @media (max-width: 768px) {
+            nav a {
+                padding: 10px;
+                margin: 5px 0;
+                flex: 1 0 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="fundo-header">
+            <img src="4.png" alt="Hortelã Pimenta Herbanário">
+        </div>
+    </header>
+    <nav>
+        <div class="navbar">
+
+
+            <a href="../inicio.html">Inicio</a>
+            <a href="../Sobre/sobre.html">Sobre</a>
+            <a href="chas.html">Chas</a>
+            <a href="../Mistos/mistos.html">Mistos</a>
+            <a href="../Tinturas/tinturas.html">Tinturas</a>
+            <a href="" onclick="javascript:alert('Para entrar em contato envie um e-mail para jonatas.alves.31677@aluno.unc.br')">Contato</a>
+            <a href="https://forms.gle/EW4N5AYgMxP9bLDw6">Formulário</a>
+
+        </div>
+    </nav>
+
+    <div class="main-section" id="Chá">
+        <div class="fundo">
+            <img src="Bem_estar.png" class="bem_estar" alt="Chá Bem Estar!" width="200">
+            <br>
+            <img src="Energia.png" class="energia" alt="Chá Energia!" width="200">
+            <br>
+            <img src="Frescor.png" class="frescor" alt="Chá Frescor!" width="200">
+            <br>
+            <img src="Zen.png" class="zen" alt="Chá Zen!" width="200">
+            <!-- Conteúdo da seção "Chas" -->
+        </div>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2024 Hortelã Pimenta Herbanário</p>
+    </footer>
+</body>
+
+</html>
